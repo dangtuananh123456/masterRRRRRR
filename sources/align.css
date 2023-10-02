@@ -4,3 +4,12 @@
     display: inline-flex;
     justify-content: first baseline;
 }
+
+header{
+    background-color: aliceblue;
+    align-items: center;
+}
+
+div{
+    background-color: antiquewhite;
+}

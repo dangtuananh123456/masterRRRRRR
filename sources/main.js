@@ -16,3 +16,8 @@ console.log(document.getElementsByClassName('html .box1'));
 console.log(document.getElementsByClassName('html .box1'));
 console.log(document.getElementsByClassName('html .box1'));
 console.log(document.getElementsByClassName('html .box1'));
+console.log(document.getElementsByClassName('html .box1'));
+console.log(document.getElementsByClassName('html .box1'));
+console.log(document.getElementsByClassName('html .box1'));
+console.log(document.getElementsByClassName('html .box1'));
+console.log(document.getElementsByClassName('html .box1'));
