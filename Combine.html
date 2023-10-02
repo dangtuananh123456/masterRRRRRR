@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header{
+            display: flex;
+            justify-content: space-between;
+            background-image: linear-gradient(0, #6496e9, #89b5f8);
+            padding: 10px;
+            flex-direction: row;
+        }
+
+        .header__items{
+            display: flex;
+            flex-direction: row;
+        }
+
+        .header__items--list{
+            padding-right : 12px;
+            padding-bottom: 12px;
+        }
+
+        .content{
+            display : flex;
+            flex-direction: column;
+        }
+
+        .content__items{
+            display: flex;
+            justify-content: center;
+            padding: 50px;
+        }
+        .class_items--modify{
+            background-image: linear-gradient(0, #6496e9, #8ab6f8);
+            display: flex;
+            justify-content: left;
+            flex-wrap: wrap;
+        }
+
+        .content__items__icon{
+            background-color: #444444;
+            margin: 20px;
+            padding : 10px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            font-size: 80px;
+        }
+
+        .footer{
+            background-image: linear-gradient(0, #f1c645, #f4d568);
+            padding-bottom : 20px;
+        }
+
+        @media (max-width : 600px) {
+            .header{
+                flex-direction: column;
+            }
+            .header__items{
+                flex-direction : column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <!-- HEADER -->
+        <div class = "header">
+            <div class = "header__items">
+                <div class = "header__items--list">About</div>
+                <div class = "header__items--list">Product</div>
+                <div class = "header__items--list">Our team</div>
+            </div>
+            <div class = "header__items">Contact</div>
+        </div>
+        <!-- Content -->
+        <div class = "content">
+            <div class = "content__items">
+                <i style="font-size: 100px">🌀</i>
+            </div>
+            <div class = "content__items class_items--modify">
+                <i class="content__items__icon">🚘</i>
+                <i class="content__items__icon">🚍</i>
+                <i class="content__items__icon">🛫</i>
+                <i class="content__items__icon">🚢</i>
+                <i class="content__items__icon">🛵</i>
+                <i class="content__items__icon">🚲</i>
+                <i class="content__items__icon">🚇</i>
+                <i class="content__items__icon">🛸</i>
+            </div>
+        </div>
+        <!-- footer -->
+        <div class = "footer">Footer</div>
+    </div>
+</body>
+</html>

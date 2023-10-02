@@ -1,0 +1,6 @@
+.header__items{
+    background-color: aliceblue;
+    align-items: center;
+    display: inline-flex;
+    justify-content: first baseline;
+}
